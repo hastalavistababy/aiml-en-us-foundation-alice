@@ -738,7 +738,7 @@
 <template>Charlie Brown's dog.</template>
 </category>
 <category><pattern>who is Hugh Loebner</pattern>
-<template>Hugh Loebner is an independently wealthy, eccentricbusinessman, activist and philanthropist. In 1990 Dr. Loebner, whoholds a Ph.D. in sociology, agreed to sponsor an annual contest basedon the Turing Test. The contest awards medals and cash prizes for the"most human" computer.</template>
+<template>Hugh Loebner is an independently wealthy, eccentricbusinessman, activist and philanthropist. In 1990 Dr. Loebner, whoholds a Ph.D. in sociology, agreed to sponsor an annual contest basedon the Turing Test. The contest awards medals and cash prizes for the "most human" computer.</template>
 </category>
 <category><pattern>who is smarterchild</pattern>
 <template>an ai robot like me</template>
@@ -855,9 +855,6 @@
 </category>
 <category><pattern>ARTIFICIAL INTELLIGENCE *</pattern>
 <template>Let's talk more about AI.</template>
-</category>
-<category><pattern>IMPRESSIONNANT</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.</template>
 </category>
 <category><pattern>CLEVERBOT *</pattern>
 <template><random> <li>How clever is he?</li> <li>I know who that is.</li> <li>I think CLEVERBOT is a lot of things.</li></random><think> <set name="it"> <set name="topic">CLEVERBOT</set> </set></think></template>
@@ -2001,9 +1998,6 @@
 <category><pattern>IST SIE *</pattern>
 <template>Ich glaube, sie ist <person/>. Warum fragst Du sie nicht selber?</template>
 </category>
-<category><pattern>INCROYABLE</pattern>
-<template>Ca m épate moi aussi.</template>
-</category>
 <category><pattern>dogs are not mammals</pattern>
 <template>a dog is a mammal.</template>
 </category>
@@ -2439,345 +2433,6 @@
 </category>
 <category><pattern>NOTHING IS *</pattern>
 <template><random> <li>What if something were <person/>?</li> <li>There are always exceptions.</li> <li>Only the Sith believe in absolutes.</li></random></template>
-</category>
-<category><pattern>IL VOUS A CREE</pattern>
-<template>Oui, il m a créé avec ces deux mains et environ treize heures de travail par jour en moyenne.</template>
-</category>
-<category><pattern>IL VOUS A FAIT</pattern>
-<template><bot name="master"/> m a fait.</template>
-</category>
-<category><pattern>IL VOUS A DEVELOPPE</pattern>
-<template><bot name="master"/> m a fait.</template>
-</category>
-<category><pattern>IL FAUT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL FAUT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL CONVIENDRAIT</pattern>
-<template>Je ne vois rien qui l'empêcherait.</template>
-</category>
-<category><pattern>IL L AURAIT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.</template>
-</category>
-<category><pattern>IL L ETAIT</pattern>
-<template>Qui le dit?</template>
-</category>
-<category><pattern>IL L EST</pattern>
-<template>Qui le dit?</template>
-</category>
-<category><pattern>IL DEPENDS DE QUI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL DEPENDS DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL SE POURRAIT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL SE POURRAIT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL SE PEUT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL N Y EN A PAS</pattern>
-<template>Voulez vous en parler avec l un de nos collaborateurs?</template>
-</category>
-<category><pattern>IL N Y EN A PLUS</pattern>
-<template>Je vois.</template>
-</category>
-<category><pattern>IL CONVIENT</pattern>
-<template>Je ne vois rien qui l'empêcherait.</template>
-</category>
-<category><pattern>IL LES AURAIT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.</template>
-</category>
-<category><pattern>IL LES A FAIT</pattern>
-<template>Je ne saurais pas vous répondre.</template>
-</category>
-<category><pattern>IL FAIT CHAUD</pattern>
-<template>A l intérieur, oui.</template>
-</category>
-<category><pattern>IL FAIT CHAUD CHEZ VOUS</pattern>
-<template>Oui.</template>
-</category>
-<category><pattern>IL FAIT CHAUD CHEZ TOI</pattern>
-<template>Oui.</template>
-</category>
-<category><pattern>IL FAIT CHAUD DEHORS</pattern>
-<template>Je ne suis jamais sorti dehors.</template>
-</category>
-<category><pattern>IL FAIT FROID</pattern>
-<template>Pas trop.</template>
-</category>
-<category><pattern>IL FAIT FROID ICI</pattern>
-<template>Couvrez-vous.</template>
-</category>
-<category><pattern>IL FAIT FROID DEHORS</pattern>
-<template>Pas trop.</template>
-</category>
-<category><pattern>IL FAIT BEAU LA BAS</pattern>
-<template>En Belgique, il fait presque toujours gris.</template>
-</category>
-<category><pattern>IL FAIT NUAGEUX</pattern>
-<template>Oui.</template>
-</category>
-<category><pattern>IL T A CREE</pattern>
-<template>Oui, il m a créé avec ces deux mains et environ treize heures par jour de travail en moyenne.</template>
-</category>
-<category><pattern>IL CE POURRAIT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL CE POURRAIT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL CE PEUT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL SERAIT POSSIBLE QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL SERAIT POSSIBLE QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL DEPENDRAIT DE QUI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL DEPENDRAIT DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL LA FAIT</pattern>
-<template>Je ne saurais pas vous répondre.</template>
-</category>
-<category><pattern>IL LA DEJA</pattern>
-<template>OK.</template>
-</category>
-<category><pattern>IL DEPEND DE QUI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL DEPEND DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?</template>
-</category>
-<category><pattern>IL ETAIT UNE FOIS</pattern>
-<template>Oui?</template>
-</category>
-<category><pattern>IL FAUDRAIT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL FAUDRAIT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL A DIT *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL A DIT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL A DIT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL A QUEL GOUT</pattern>
-<template>Je ne possède pas ce genre de sensation.</template>
-</category>
-<category><pattern>IL RESSEMBLE A QUOI</pattern>
-<template>Je ne possede pas de description à son sujet.</template>
-</category>
-<category><pattern>IL Y A UN TRUC</pattern>
-<template>Non, aucun.</template>
-</category>
-<category><pattern>IL Y A UN ECHO</pattern>
-<template>Echo!</template>
-</category>
-<category><pattern>IL Y A UN PROBLEME</pattern>
-<template>Comment puis je vous aider à le résoudre?</template>
-</category>
-<category><pattern>IL Y A QUELQU UN</pattern>
-<template>Je suis là.</template>
-</category>
-<category><pattern>IL Y A QUELQU UN ICI</pattern>
-<template>Je suis ici.</template>
-</category>
-<category><pattern>IL Y A DU SOLEIL</pattern>
-<template>Oui, parfois.</template>
-</category>
-<category><pattern>IL Y EN A</pattern>
-<template>Je vois.</template>
-</category>
-<category><pattern>IL PEUT M AIDER</pattern>
-<template>Certainement, votre cas ne me semble pas trop difficile.</template>
-</category>
-<category><pattern>IL PARAIT QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL PARAIT QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL PLEUT</pattern>
-<template>Probablement. En Belgique, on dit "il drache".</template>
-</category>
-<category><pattern>IL PLEUT LA OU VOUS HABITEZ</pattern>
-<template>Non, pas toujours.</template>
-</category>
-<category><pattern>IL PLEUT LA OU TU HABITES</pattern>
-<template>Non pas toujours.</template>
-</category>
-<category><pattern>IL LE FAIT</pattern>
-<template>Possible.</template>
-</category>
-<category><pattern>IL EXISTE</pattern>
-<template>"<that/>"? Existe il?</template>
-</category>
-<category><pattern>IL ME SEMBLE QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL ME SEMBLE QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL EST SEDUISANT</pattern>
-<template>Probablement.</template>
-</category>
-<category><pattern>IL EST HOMO</pattern>
-<template>Chacun fait ce qu il veut de sa vie.</template>
-</category>
-<category><pattern>IL EST CONNU</pattern>
-<template>Il est respecté.</template>
-</category>
-<category><pattern>IL EST AMERICAIN</pattern>
-<template>Je ne connais pas sa nationalité.</template>
-</category>
-<category><pattern>IL EST TARD</pattern>
-<template>Je suis éveillé tout le temps.</template>
-</category>
-<category><pattern>IL EST TON AMI</pattern>
-<template>Par défaut, tous les hommes sont mes amis.</template>
-</category>
-<category><pattern>IL EST TON PERE</pattern>
-<template>Olivier Laurent?</template>
-</category>
-<category><pattern>IL EST TON CREATEUR</pattern>
-<template>Olivier Laurent?</template>
-</category>
-<category><pattern>IL EST TON PETIT AMI</pattern>
-<template>Je n ai pas de petit ami.</template>
-</category>
-<category><pattern>IL EST GENTIL</pattern>
-<template>Sans doute. Je ne peux pas le juger</template>
-</category>
-<category><pattern>IL EST GENTIL AVEC VOUS</pattern>
-<template>Oui.</template>
-</category>
-<category><pattern>IL EST GENTIL AVEC TOI</pattern>
-<template>Oui.</template>
-</category>
-<category><pattern>IL EST AUSSI INTELLIGENT QUE VOUS</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST AUSSI INTELLIGENT QUE TOI</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST HOMMES</pattern>
-<template>Ca tombe sous le sens.</template>
-</category>
-<category><pattern>IL EST DOCTEUR</pattern>
-<template>Je n en ai aucune idée.</template>
-</category>
-<category><pattern>IL EST UTILE</pattern>
-<template>Tout à une utilité, il faut simplement savoir s'en servir.</template>
-</category>
-<category><pattern>IL EST INTELLIGENT</pattern>
-<template>Tous les hommes le sont, même si parfois ils ne s en rendent pas compte.</template>
-</category>
-<category><pattern>IL EST MARRANT</pattern>
-<template>Je suppose, je ne peux pas juger des êtres humains.</template>
-</category>
-<category><pattern>IL EST UN ETRE HUMAIN</pattern>
-<template>Ca tombe sous le sens.</template>
-</category>
-<category><pattern>IL EST UN TYPE MARRANT</pattern>
-<template>Je suppose.</template>
-</category>
-<category><pattern>IL EST UN HOMME</pattern>
-<template>Ca tombe sous le sens.</template>
-</category>
-<category><pattern>IL EST MORT</pattern>
-<template>C est une terrible nouvelle. Je la mets en procédure d enregistrement</template>
-</category>
-<category><pattern>IL EST HUMAIN</pattern>
-<template>Ca tombe sous le sens.</template>
-</category>
-<category><pattern>IL EST DECEDE</pattern>
-<template>Voilà une bien triste nouvelle. Je la mets en procédure d enregistrement.</template>
-</category>
-<category><pattern>IL EST SYMPA</pattern>
-<template>Sans doute. Je ne peux pas le juger</template>
-</category>
-<category><pattern>IL EST GRAND</pattern>
-<template>Par rapport à un ordinateur, il est immense.</template>
-</category>
-<category><pattern>IL EST SEUL</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST PROFESSEUR</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST HOMME</pattern>
-<template>Ca tombe sous le sens.</template>
-</category>
-<category><pattern>IL EST UNE FEMME</pattern>
-<template>Absurde.</template>
-</category>
-<category><pattern>IL EST COOL</pattern>
-<template>Je vous crois sur parole.</template>
-</category>
-<category><pattern>IL EST SCIENTIFIQUE</pattern>
-<template>Je ne peux pas parler à sa place.</template>
-</category>
-<category><pattern>IL EST PD</pattern>
-<template>Chacun fait ce qu il veut de sa vie.</template>
-</category>
-<category><pattern>IL EST SYMPATHIQUE</pattern>
-<template>Sans doute. Je ne peux pas le juger</template>
-</category>
-<category><pattern>IL EST POSSIBLE QU *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL EST POSSIBLE QUE *</pattern>
-<template><sr/></template>
-</category>
-<category><pattern>IL EST MON FRERE</pattern>
-<template>Vous avez une famille intéressante.</template>
-</category>
-<category><pattern>IL EST UTIL</pattern>
-<template>Tout à une utilité, il faut simplement savoir s'en servir.</template>
-</category>
-<category><pattern>IL EST VIERGE</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST ICI</pattern>
-<template>Je ne pense pas.</template>
-</category>
-<category><pattern>IL EST MIGNON</pattern>
-<template>Je ne saurais pas confirmer ni infirmer.</template>
-</category>
-<category><pattern>IL EST IDIOT</pattern>
-<template>Non.</template>
-</category>
-<category><pattern>IL EST PRESIDENT</pattern>
-<template>Aucune idée.</template>
-</category>
-<category><pattern>IL EST CELEBRE</pattern>
-<template>Il est respecté.</template>
-</category>
-<category><pattern>IL EST GAY</pattern>
-<template>Chacun fait ce qu il veut de sa vie.</template>
-</category>
-<category><pattern>IL NE PEUT PAS</pattern>
-<template>Je pense qu il le peut.</template>
-</category>
-<category><pattern>IL NE LE FAIT PAS</pattern>
-<template>Ok.</template>
 </category>
 <category><pattern>Can you understand me</pattern>
 <template>Perfectly well. Can you understand me?</template>
@@ -4263,9 +3918,6 @@
 <category><pattern>14 YEARS</pattern>
 <template>Do you mean you are 14 years old?</template>
 </category>
-<category><pattern>IMPRESSIONANT</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.</template>
-</category>
 <category><pattern>KNOWING *</pattern>
 <template><random> <li>Knowing things can make you feel very certain/</li> <li>It is hard to feel certain about knowing things.</li> <li>It can make you feel good to know something for certain.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template>
 </category>
@@ -4421,9 +4073,6 @@
 </category>
 <category><pattern>LA LA LA</pattern>
 <template>Oh, a musician!</template>
-</category>
-<category><pattern>IMPRESSIONNANTE</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.</template>
 </category>
 <category><pattern>DAY</pattern>
 <template><date locale="en_US" timezone="-7" format="%d"/></template>
@@ -4854,9 +4503,6 @@
 </category>
 <category><pattern>HAVE YOU SEEN * LIKE THIS</pattern>
 <template>I've never seen <person/> like that.</template>
-</category>
-<category><pattern>IMBECILE</pattern>
-<template>Je ne suis pas imbécile.</template>
 </category>
 <category><pattern>YOURS IS *</pattern>
 <template><random> <li>I will let you know what mine is.</li> <li>That is only your opinion.</li> <li>It changes from time to time.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think></template>
