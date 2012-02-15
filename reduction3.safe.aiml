@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/25/2011 -->
+<!-- Last modified 2/14/2012 -->
 <!-- -->
 <category><pattern>REALITY</pattern>
 <template><srai>what is reality</srai></template>
@@ -10835,9 +10835,6 @@
 </category>
 <category><pattern>TELL WHAT YOU LIKE</pattern>
 <template><srai>what do you like</srai></template>
-</category>
-<category><pattern>TELL RICHARD *</pattern>
-<template><srai>tell rich</srai></template>
 </category>
 <category><pattern>TELL ME ABOUT MINSKY</pattern>
 <template><srai>who is minsky</srai></template>
