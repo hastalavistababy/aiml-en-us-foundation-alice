@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 2/21/2012 -->
 <!-- -->
 <category><pattern>YOU MAY THINK * BUT *</pattern>
 <template><srai>  <star index="2" /></srai></template>
@@ -11891,9 +11891,6 @@
 </category>
 <category><pattern>_ MAY HAVE FALLEN _</pattern>
 <template><srai>  <star /> fell <star index="2" /></srai></template>
-</category>
-<category><pattern>_ SAYING *</pattern>
-<template><srai>  <star index="2" /></srai></template>
 </category>
 <category><pattern>_ IS REDUCED</pattern>
 <template><srai>  <star /> decreases</srai></template>
