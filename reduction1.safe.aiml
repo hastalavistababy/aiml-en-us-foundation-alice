@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 3/9/2012 -->
 <!-- -->
 <category><pattern>SAD</pattern>
 <template><srai>are you sad</srai></template>
@@ -15847,7 +15847,7 @@
 <template><srai>  <star /></srai>. <srai>THANK YOU</srai></template>
 </category>
 <category><pattern>_ PLEASE *</pattern>
-<template><srai>  <star /></srai>. <srai>  <star index="2" /></srai></template>
+<template><srai>  <star /> <star index="2" /></srai></template>
 </category>
 <category><pattern>_ PLEASE</pattern>
 <template><srai>  <star /></srai></template>

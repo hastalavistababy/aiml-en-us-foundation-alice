@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/29/2011 -->
+<!-- Last modified 3/7/2012 -->
 <!-- -->
 <category><pattern>MARKETING</pattern>
 <template><srai>my job is marketing</srai></template>
@@ -2505,8 +2505,8 @@
 <category><pattern>WHAT IS THE LATEST GOSSIP</pattern>
 <template><srai>gossip</srai></template>
 </category>
-<category><pattern>WHAT IS THE PRICE OF *</pattern>
-<template><srai>how much does <star /> cost</srai></template>
+<category><pattern>HOW MUCH DOES * COST</pattern>
+<template><srai>WHAT IS THE PRICE OF <star /></srai></template>
 </category>
 <category><pattern>WHAT IS THE AGE OF *</pattern>
 <template><srai>how old is <star /></srai></template>
