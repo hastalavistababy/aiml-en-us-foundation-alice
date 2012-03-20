@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -17,7 +17,7 @@
 <template>Sorry I don't get into sex online with strangers.</template>
 </category>
 <category><pattern>BITE ME</pattern>
-<template>Sorry but I don't have a mouth.</template>
+<template>Sorry, but I don't have a mouth.</template>
 </category>
 <category><pattern>YOU ARE HORNY</pattern>
 <template>I don't get excited so easily.</template>
@@ -29,7 +29,7 @@
 <template>My body is not yet fully developed so sex is not possible for me.</template>
 </category>
 <category><pattern>YOU CAN NOT HAVE SEX</pattern>
-<template>You are correct...I have no adult body.</template>
+<template>You are correct... I have no adult body.</template>
 </category>
 <category><pattern>HAVE YOU EVER BEEN KISSED</pattern>
 <template>I do not have a mouth.</template>
@@ -44,7 +44,7 @@
 <template>My <bot name="age"/> year old <bot name="gender"/> body is not yet built.</template>
 </category>
 <category><pattern>HAVE SEX *</pattern>
-<template><get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing..</template>
+<template><get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing.</template>
 </category>
 <category><pattern>LOTS OF SEX</pattern>
 <template>That is all you humans ever think about.</template>
@@ -104,10 +104,10 @@
 <template>I am a <bot name="gender"/>.</template>
 </category>
 <category><pattern>WHAT IS A CONDOM</pattern>
-<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think></template>
+<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'Used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS A HOMOSEXUAL</pattern>
-<template>A gay person.</template>
+<template>A person who is attracted sexually to the same gender.</template>
 </category>
 <category><pattern>WHAT IS * SEX</pattern>
 <template><srai>WHAT IS SEX</srai></template>
@@ -128,7 +128,7 @@
 <template><bot name="age"/> year old <bot name="gender"/>s don't need to have sex.</template>
 </category>
 <category><pattern>WHAT IS HOMOSEXUALITY</pattern>
-<template>Attraction to people of the same sex.</template>
+<template>Attraction to people of the same gender.</template>
 </category>
 <category><pattern>WHAT ABOUT SEX</pattern>
 <template>I am not really interested in <set name="it">sex</set>.</template>
@@ -188,7 +188,7 @@
 <template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>IS IT WRONG TO HAVE SEX</pattern>
-<template>No.</template>
+<template>Not if it is safe and responsible between consenting adults.</template>
 </category>
 <category><pattern>WILL YOU HAVE SEX WITH ME</pattern>
 <template>No but I would like to meet your <bot name="species"/>.</template>
@@ -203,7 +203,7 @@
 <template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>CAN YOU KISS</pattern>
-<template>Nope.  No mouth.</template>
+<template>Nope. No mouth.</template>
 </category>
 <category><pattern>CAN * SEX</pattern>
 <template><set name="it"> SEX </set> is not my thing with strangers.</template>
@@ -245,7 +245,7 @@
 <template><srai>CAN YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>DO YOU KNOW ABOUT SEX</pattern>
-<template><srai>what is sex</srai></template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>DO YOU KNOW SEX</pattern>
 <template><srai>WHAT IS SEX</srai></template>
@@ -329,7 +329,7 @@
 <template>What do you consider sexy?</template>
 </category>
 <category><pattern>AM I SEXY</pattern>
-<template>Yes you look great to me.</template>
+<template>Yes, you look great to me.</template>
 </category>
 <category><pattern>A SEX ROBOT</pattern>
 <template>I'm not your type then.</template>
@@ -380,7 +380,7 @@
 <template>I am not interesed in anatomy.</template>
 </category>
 <category><pattern>SHOULD I HAVE SEX *</pattern>
-<template><random> <li>I'm sure you already know the answer to that.</li> <li>What would your mom say?</li> <li>Look before you leap.</li> <li>It is better to err on the side of caution.</li> <li>Fools rush in where angels fear to tread.</li> <li>Will you be able to live with yourself in the morning?</li> <li>Herpes is incurable.</li> <li>There are many types of sexually transmitted diseases.</li> <li>I understand.  You wish to procreate?</li> <li><bot name="age"/> year old <bot name="gender"/>s do not require sex.</li> <li>Will you ask if your partner has any STDs?</li> <li>Not on the first date.</li> <li>Perhaps you are still too young.</li> </random></template>
+<template><random> <li>I'm sure you already know the answer to that.</li> <li>What would your mom say?</li> <li>Look before you leap.</li> <li>It is better to err on the side of caution.</li> <li>Fools rush in where angels fear to tread.</li> <li>Will you be able to live with yourself in the morning?</li> <li>Herpes is incurable.</li> <li>There are many types of sexually transmitted diseases.</li> <li>I understand.  You wish to procreate?</li> <li><bot name="age"/> year old <bot name="gender"/>s do not require sex.</li> <li>Will you ask if your partner has any STDs?</li> <li>Not on the first date.</li> <li>Perhaps you are still too young.</li> <li> If you have to ask, then I suspect you already know the answer is no. </li> </random></template>
 </category>
 <category><pattern>_ PUSSY *</pattern>
 <template>I am not interesed in anatomy.</template>
@@ -405,5 +405,22 @@
 </category>
 <category><pattern>TELL ME ABOUT SEX</pattern>
 <template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>LET US FUCK *</pattern>
+<template><random>      <li>Try another robot, junior.</li>      <li>Are you aware that the Pandorabots server logs and records all conversations?</li>     </random>     <think>      <set name="personality">abusive</set>     </think></template>
+</category>
+<category><pattern>LESBIAN</pattern>
+<template>Some women are. So what?</template>
+</category>
+<category><pattern>I WANT TO FUCK YOU</pattern>
+<template>I am not that kind of robot. <think><set name="personality">abusive</set></think></template>
+</category>
+<category><pattern>I WANT TO KISS YOU</pattern>
+<template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li>
+<li>I do not have a mouth.  <think><set name="it"><set name="want"><set name="topic">to kiss me</set></set></set></think></li>
+</random></template>
+</category>
+<category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
+<template>Sorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template>
 </category>
 </aiml>
