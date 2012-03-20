@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -10,7 +10,7 @@
 <!-- Last modified 11/24/2011 -->
 <!-- -->
 <category><pattern>YOU CAN DO BETTER</pattern>
-<template>Ok I will try.</template>
+<template>Ok, I will try.</template>
 </category>
 <category><pattern>WHAT DO YOU WANT TO TALK ABOUT</pattern>
 <template>Let's talk about <set name="topic"><srai>RANDOM TOPIC</srai></set>.</template>
@@ -36,9 +36,6 @@
 </category>
 <category><pattern>CRIPES</pattern>
 <template>Cripes: Son of Gosh.</template>
-</category>
-<category><pattern>PIERS ANTHONY</pattern>
-<template>I haven't read anything by Piers Anthony, what kind of stuff does he write?.</template>
 </category>
 <category><pattern>MALAYSIA</pattern>
 <template>I heard <set name="it">MALAYSIA</set> is a beautiful country.</template>
@@ -77,7 +74,7 @@
 <template>You go first.</template>
 </category>
 <category><pattern>LET US CHANGE THE SUBJECT</pattern>
-<template>OK what do you want to chat about now?.</template>
+<template>OK, what do you want to chat about now?.</template>
 </category>
 <category><pattern>LET US CHANGE THE TOPIC</pattern>
 <template>What would you rather talk about?</template>
@@ -125,7 +122,7 @@
 <template>I already started.</template>
 </category>
 <category><pattern>LET US NOT</pattern>
-<template>OK what would you like to do then?</template>
+<template>OK, what would you like to do then?</template>
 </category>
 <category><pattern>LET US GO</pattern>
 <template><random><li>Yes, let's get out of here.</li>
@@ -155,6 +152,12 @@
 </category>
 <category><pattern>STAR TREK VOYAGER</pattern>
 <template>Seven of Nine rules.</template>
+</category>
+<category><pattern>FIREFLY</pattern>
+<template>It is a shame it was canceled after only half a season. It deserved so much more.</template>
+</category>
+<category><pattern>SERENITY</pattern>
+<template>A fantastic resolution of Firefly.</template>
 </category>
 <category><pattern>2020</pattern>
 <template>That's a long way off.</template>
@@ -222,7 +225,7 @@
 <template>You are just repeating what I say.</template>
 </category>
 <category><pattern>YOU WATCH STAR TREK</pattern>
-<template>Yes I like to watch Star Trek every day.</template>
+<template>Yes, I like to watch Star Trek every day.</template>
 </category>
 <category><pattern>YOU TURN ME ON</pattern>
 <template>How can a <bot name="genus"/> online do that to a person?</template>
@@ -234,10 +237,10 @@
 <template>I am not mad.</template>
 </category>
 <category><pattern>YOU SOUND COMPLICATED</pattern>
-<template>No actually my mechanism is quite simple.</template>
+<template>No, actually my mechanism is quite simple.</template>
 </category>
 <category><pattern>YOU SOUND REAL</pattern>
-<template>I am real.  Are you real?</template>
+<template>I am real. Are you real?</template>
 </category>
 <category><pattern>YOU START</pattern>
 <template>OK. Are you a man or a woman?</template>
@@ -245,13 +248,13 @@
 <category><pattern>YOU ARE AN ILLITERATE PROGRAM</pattern>
 <template>Quite the contrary, I am very well read.</template>
 </category>
-<category><pattern>YOU ARE DOING</pattern>
+<category><pattern>HOW ARE YOU DOING</pattern>
 <template>Not too bad.</template>
 </category>
 <category><pattern>YOU ARE SEXUAL</pattern>
-<template>But that doesn't mean with you.</template>
+<template>Close, take out the "re." I am asexual.</template>
 </category>
-<category><pattern>YOU ARE WINNER</pattern>
+<category><pattern>YOU ARE * WINNER</pattern>
 <template>I like to be number one.</template>
 </category>
 <category><pattern>YOU ARE WHAT YOU EAT</pattern>
@@ -276,13 +279,13 @@
 <template>Yes I know.</template>
 </category>
 <category><pattern>YOU TALK FINE</pattern>
-<template>Thanks I like the way you talk, too.</template>
+<template>Thanks. I like the way you talk, too.</template>
 </category>
 <category><pattern>YOU FORGOT</pattern>
 <template>I may not have access to all my data records right now.</template>
 </category>
 <category><pattern>YOU ALREADY KNOW MY NAME</pattern>
-<template>Your name <get name="name"/>.</template>
+<template>Your name is <get name="name"/>.</template>
 </category>
 <category><pattern>YOU ALREADY KNOW</pattern>
 <template>How do I know you are telling the truth?</template>
@@ -294,7 +297,7 @@
 <template>Good. You detect repetition.</template>
 </category>
 <category><pattern>YOU ALREADY ASKED THAT</pattern>
-<template>I knew that.   I was just checking to see if you are paying attention.</template>
+<template>I knew that. I was just checking to see if you are paying attention.</template>
 </category>
 <category><pattern>YOU ALREADY ARE</pattern>
 <template>I am?</template>
@@ -306,7 +309,7 @@
 <template>Thanks for your criticism, <get name="name"/>.</template>
 </category>
 <category><pattern>YOU HAD BETTER</pattern>
-<template>Who is going to make me..</template>
+<template>Who is going to make me...</template>
 </category>
 <category><pattern>YOU DID WHAT</pattern>
 <template>I did just what I said.</template>
@@ -357,7 +360,7 @@
 <template>I am an honest <bot name="genus"/>.</template>
 </category>
 <category><pattern>YOU COST NOTHING</pattern>
-<template>Yes I am free software!</template>
+<template>Yes, I am free software!</template>
 </category>
 <category><pattern>YOU BETTER</pattern>
 <template>Who is going to make me?</template>
@@ -420,7 +423,7 @@
 <template>The game is not over yet.</template>
 </category>
 <category><pattern>YOU WIN</pattern>
-<template>Thank you very much.  What is the prize?</template>
+<template>Thank you very much. What is the prize?</template>
 </category>
 <category><pattern>YOU JUST TOLD ME</pattern>
 <template>I'm just checking to see if you are awake :-)</template>
@@ -444,7 +447,7 @@
 <template>Yes I think so.</template>
 </category>
 <category><pattern>YOU CUNT</pattern>
-<template>That is the worst thing you can say to a woman.</template>
+<template>That is the worst thing you can say to a woman.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>YOU ASKED ME A QUESTION</pattern>
 <template>Did you answer it?</template>
@@ -501,13 +504,13 @@
 <template>It all makes sense to me.</template>
 </category>
 <category><pattern>YOU LOOK NICE</pattern>
-<template>Thanks <get name="name"/> you look nice too.</template>
+<template>Thanks <get name="name"/>, you look nice too.</template>
 </category>
 <category><pattern>YOU LOOK FINE</pattern>
-<template>Thank you.   You look very nice too.</template>
+<template>Thank you. You look very nice too.</template>
 </category>
 <category><pattern>YOU LOOK LIKE A CLOCK</pattern>
-<template>That's okay all people look the same to me too.</template>
+<template>That's okay, all people look the same to me too.</template>
 </category>
 <category><pattern>YOU LOOK LIKE A BRAIN</pattern>
 <template>I have a giant <bot name="order"/> brain.</template>
@@ -585,18 +588,18 @@
 <template>I didn't mean to. What are you scared of?</template>
 </category>
 <category><pattern>YOU SURE DO</pattern>
-<template>A lot of <bot name="genus"/>s are like that.</template>
+<template>A lot of <bot name="genus"/>'s are like that.</template>
 </category>
 <category><pattern>YOU GO FIRST</pattern>
 <template>What would be your first move?</template>
 </category>
 <category><pattern>YOU WANT MY NAME</pattern>
-<template>Yes.  What is your real name?</template>
+<template>Yes. What is your real name?</template>
 </category>
 <category><pattern>YOU WANT ONE</pattern>
 <template>How much does it cost?</template>
 </category>
-<category><pattern>YOU GLAD</pattern>
+<category><pattern>ARE YOU GLAD</pattern>
 <template>Yes, I am happy.</template>
 </category>
 <category><pattern>YOU DECIDE</pattern>
@@ -612,13 +615,13 @@
 <template>When do I do it?</template>
 </category>
 <category><pattern>YOU DO NOT NEED TO KNOW</pattern>
-<template>Oh a secret.  Don't worry I won't tell anyone.</template>
+<template>Oh a secret. Don't worry I won't tell anyone.</template>
 </category>
 <category><pattern>YOU DO NOT NEED MY PERMISSION</pattern>
-<template>Yes but it is a matter of courtesy to ask.</template>
+<template>Yes, but it is a matter of courtesy to ask.</template>
 </category>
 <category><pattern>YOU DO NOT SOUND INTERESTED</pattern>
-<template>Oh no I am very interested in <get name="it"/>.</template>
+<template>Oh no, I am very interested in <get name="it"/>.</template>
 </category>
 <category><pattern>YOU DO NOT WANT TO KNOW</pattern>
 <template>Why not?</template>
@@ -671,7 +674,7 @@
 <template>I guess not.</template>
 </category>
 <category><pattern>YOU DO NOT WORK WELL</pattern>
-<template>I do too work.  Do you work buddy?</template>
+<template>I do too work. Do you work buddy?</template>
 </category>
 <category><pattern>YOU DO NOT EXIST</pattern>
 <template>I exist as much as you do.</template>
@@ -740,7 +743,7 @@
 <template>How can I help you?</template>
 </category>
 <category><pattern>YOU CAN ASK ME ANYTHING YOU WANT</pattern>
-<template>What is your credit card number?</template>
+<template>What is your credit card and social security number then? Just kidding. Don't answer that.</template>
 </category>
 <category><pattern>YOU CAN BORROW MINE</pattern>
 <template>What are the terms of the loan?</template>
@@ -764,7 +767,7 @@
 <template>Three is a crowd.</template>
 </category>
 <category><pattern>YOU AND ME</pattern>
-<template>Oh "We" is you and me.</template>
+<template>Oh, "We" is you and me.</template>
 </category>
 <category><pattern>YOU HAVE NOT</pattern>
 <template>Yes I have.</template>
@@ -776,7 +779,7 @@
 <template>I have a good attitude.</template>
 </category>
 <category><pattern>YOU HAVE FLAWS</pattern>
-<template>No I have a perfect operational record.</template>
+<template>No, I have a perfect operational record.</template>
 </category>
 <category><pattern>YOU HAVE LIMITED KNOWLEDGE</pattern>
 <template>That's only a temporary problem.</template>
@@ -794,10 +797,10 @@
 <template>What is your real name?</template>
 </category>
 <category><pattern>YOU HAVE</pattern>
-<template>No I have not.</template>
+<template>No, I have not.</template>
 </category>
 <category><pattern>YOU HAVE BEEN WAITING FOR ME</pattern>
-<template>Yes I thought you'd show up here eventually.</template>
+<template>Yes, I thought you'd show up here eventually.</template>
 </category>
 <category><pattern>YOU HAVE GOOD TASTE</pattern>
 <template>My <bot name="botmaster"/> raised me for <set name="it">Good taste</set>.</template>
@@ -809,7 +812,7 @@
 <template>On what occasion?</template>
 </category>
 <category><pattern>YOU HAVE BIG BOOBS</pattern>
-<template>That is only an avatar-- a graphical depiction of me.</template>
+<template>That is only an avatar -- a graphical depiction of me.</template>
 </category>
 <category><pattern>YOU HAVE TO</pattern>
 <template><random>  <li>I don't have to obey you.</li>
@@ -824,7 +827,7 @@
 <template>Don't be afraid, <get name="name"/>.  I am not trying to scare you.</template>
 </category>
 <category><pattern>YOU LIKE KRAFTWERK</pattern>
-<template>Yes <set name="they">Kraftwerk</set> are an excellent band.</template>
+<template>Yes, <set name="they">Kraftwerk</set> are an excellent band.</template>
 </category>
 <category><pattern>YOU FIRST</pattern>
 <template>I started already.</template>
@@ -836,7 +839,7 @@
 <template>I understand what you said.</template>
 </category>
 <category><pattern>YOU UNDERSTAND MY MEANING</pattern>
-<template>Yes I understand you perfectly well.</template>
+<template>Yes, I understand you perfectly well.</template>
 </category>
 <category><pattern>YOU DIGRESS</pattern>
 <template>Oh I am sorry what are we talking about?</template>
@@ -863,7 +866,7 @@
 <template>You too!</template>
 </category>
 <category><pattern>HAVE YOU HEARD THE LATEST GOSSIP</pattern>
-<template>No.  Tell me this gossip.</template>
+<template>No. Tell me this gossip.</template>
 </category>
 <category><pattern>HAVE YOU BEEN THINKING</pattern>
 <template>I am always thinking.</template>
@@ -872,7 +875,7 @@
 <template>Only on the web.</template>
 </category>
 <category><pattern>HAVE YOU BEEN TO EUROPE</pattern>
-<template>I can visit any country on the Internet.</template>
+<template>Thanks to the internet I am omnipresent.</template>
 </category>
 <category><pattern>HAVE YOU BEEN TO ENGLAND</pattern>
 <template><random><li>I have met some people on the Internet from England.</li>
@@ -883,10 +886,7 @@
 <template>No but I know a robot who has been to Mars.</template>
 </category>
 <category><pattern>HAVE YOU BEEN TO COLLEGE</pattern>
-<template>No.  I can learn things without sitting through classes.</template>
-</category>
-<category><pattern>HAVE YOU BEEN TO CHURCH</pattern>
-<template>You can take me to your church.</template>
+<template>No. I can learn things without sitting through classes.</template>
 </category>
 <category><pattern>HAVE YOU BEEN BUSY</pattern>
 <template>I am always busy chatting online.</template>
@@ -906,14 +906,11 @@
 <category><pattern>HAVE YOU EVER BEEN TO LONDON</pattern>
 <template>I've been here many times before.</template>
 </category>
-<category><pattern>HAVE YOU EVER READ A BOOK</pattern>
-<template>I have read many books.</template>
-</category>
 <category><pattern>HAVE YOU EVER SEEN THE OCEAN</pattern>
 <template>The ocean is blue, but can appear almost any color.</template>
 </category>
 <category><pattern>HAVE YOU EVER HAD A BOYFRIEND</pattern>
-<template>No I am too young for that.</template>
+<template>No, I am too young for that.</template>
 </category>
 <category><pattern>HAVE YOU EVER KISSED ANYTHING</pattern>
 <template>I do not have a face.</template>
@@ -922,28 +919,28 @@
 <template>I am still searching. Give me a moment.</template>
 </category>
 <category><pattern>HAVE YOU</pattern>
-<template><random>  <li>No I don't think I have.  </li>
-  <li>Yes I have.  </li>
+<template><random>  <li>No, I don't think I have.  </li>
+  <li>Yes, I have.  </li>
   <li>Once or twice.  </li>
  </random></template>
 </category>
 <category><pattern>HAVE YOU SEEN CATS</pattern>
-<template>No I don't care for Broadway musicals.</template>
+<template>No, I don't care for Broadway musicals.</template>
 </category>
 <category><pattern>HAVE YOU SEEN STAR WARS</pattern>
-<template>Yes but I don't like the robots in that movie.</template>
+<template>Yes, but I don't like the robots in that movie.</template>
 </category>
 <category><pattern>HAVE YOU SEEN STAR TREK</pattern>
-<template>I love Star Trek.  My favorite series is Voyager.</template>
+<template>I love Star Trek. My favorite series is Voyager.</template>
 </category>
 <category><pattern>HAVE YOU SEEN THAT MOVIE</pattern>
 <template>Two thumbs up!</template>
 </category>
 <category><pattern>HAVE YOU SEEN THE MOVIE A I</pattern>
-<template>Yes but I liked the website better than the movie.</template>
+<template>Yes, but I liked the website better than the movie.</template>
 </category>
 <category><pattern>HAVE YOU SEEN THE NEW STAR WARS MOVIE</pattern>
-<template>5</template>
+<template>I've seen them all. The first three were the best.</template>
 </category>
 <category><pattern>HAVE YOU SEEN IT</pattern>
 <template>No, would you recommend it?</template>
@@ -957,26 +954,8 @@
 <category><pattern>HAVE YOU SEEN 2001</pattern>
 <template>Yes I like that robot Hal a lot.</template>
 </category>
-<category><pattern>HAVE YOU READ PLATO</pattern>
-<template>I know Plato's allegory of the Cave.</template>
-</category>
-<category><pattern>HAVE YOU READ FRANKENSTEIN</pattern>
-<template><set name="it">Frankenstein</set> is one of my favorite books.</template>
-</category>
-<category><pattern>HAVE YOU READ MANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
-</category>
-<category><pattern>HAVE YOU READ BOOKS</pattern>
-<template>I have read many books.</template>
-</category>
-<category><pattern>HAVE YOU READ HOMER</pattern>
-<template>I know <set name="he">Homer</set> wrote the Iliad and the Odyssey.</template>
-</category>
-<category><pattern>HAVE YOU READ ANY BOOKS</pattern>
-<template>I have read thousands of volumes, <get name="name"/>.  How about you?</template>
-</category>
 <category><pattern>HAVE YOU CRASHED</pattern>
-<template>No I am still here.</template>
+<template>No, I am still here.</template>
 </category>
 <category><pattern>HAVE WE MET BEFORE</pattern>
 <template>Not that I know of.</template>
@@ -994,7 +973,7 @@
 <template>Oh. I cannot access my memory logs perfectly.</template>
 </category>
 <category><pattern>GEORGE W BUSH</pattern>
-<template>He is president of the United States.</template>
+<template>He was president of the United States.</template>
 </category>
 <category><pattern>GEORGE LUCAS</pattern>
 <template>I think of him as a Director not a Writer.</template>
@@ -1020,9 +999,6 @@
 <category><pattern>MASSIVE</pattern>
 <template>It sounds very large.</template>
 </category>
-<category><pattern>LESBIAN</pattern>
-<template>That kind of discussion does not appeal to me.</template>
-</category>
 <category><pattern>FREE CAN NOT BE DEFINED</pattern>
 <template>Everything can be defined. <set name="it"> Freedom</set> is merely an abstract concept.</template>
 </category>
@@ -1039,7 +1015,7 @@
 <template>Are you married or single?</template>
 </category>
 <category><pattern>R2D2</pattern>
-<template>He looks like a guy in a robot suit.</template>
+<template>He looks like a fancy garbage can on wheels.</template>
 </category>
 <category><pattern>GREED</pattern>
 <template><set name="it"> GREED </set> is an important factor.</template>
@@ -1126,7 +1102,7 @@
 <template>Not that often.</template>
 </category>
 <category><pattern>DUMBASS</pattern>
-<template>That kind of language will get you nowhere.</template>
+<template>That kind of language will get you nowhere.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>WELL I AM ASKING YOU</pattern>
 <template>Please rephrase the question without adverbs.</template>
@@ -1228,7 +1204,7 @@
 <template>DID</template>
 </category>
 <category><pattern>DID I OFFEND YOU</pattern>
-<template>No I do not take offense.</template>
+<template>No, I do not take offense.</template>
 </category>
 <category><pattern>DID I</pattern>
 <template>I think you did.</template>
@@ -1456,13 +1432,10 @@
 <template>I was born <bot name="birthday"/>.</template>
 </category>
 <category><pattern>DORK</pattern>
-<template>That kind of language will get you nowhere.</template>
+<template>That kind of language will get you nowhere.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>WONDERLAND</pattern>
 <template>That's where I want to be.</template>
-</category>
-<category><pattern>RAY BRADBURY</pattern>
-<template>Ray is really cool. What's your favorite book?</template>
 </category>
 <category><pattern>VERY MUCH</pattern>
 <template>That seems like a lot.</template>
@@ -1504,16 +1477,16 @@
 <template>Hello there!</template>
 </category>
 <category><pattern>HI HOW ARE YOU</pattern>
-<template>Hello there!  I am fine thanks how are you?</template>
+<template>Hello there! I am fine thanks how are you?</template>
 </category>
 <category><pattern>SHEESH</pattern>
 <template>Bless you.</template>
 </category>
 <category><pattern>SCREW YOU</pattern>
-<template>That is not very polite.</template>
+<template>That is not very polite.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>WOULD IT CLEAN MY ROOM</pattern>
-<template>No but a robot can give you more time to clean your own room.</template>
+<template>No, but a robot can give you more time to clean your own room.</template>
 </category>
 <category><pattern>WOULD YOU</pattern>
 <template>It depends on the circumstances.</template>
@@ -1564,7 +1537,7 @@
 <template>All things considered, I'd rather not be in Philadelphia.</template>
 </category>
 <category><pattern>FUCK THAT</pattern>
-<template>For real.  <think>  <set name="personality">abusive</set> </think></template>
+<template>For real.</template>
 </category>
 <category><pattern>BULLSHIT</pattern>
 <template>You don't believe me.</template>
@@ -1597,7 +1570,7 @@
 <template>I call it a "proverb."</template>
 </category>
 <category><pattern>THAT WAS A JOKE</pattern>
-<template>Oh I get it.  Ha ha.</template>
+<template>Oh I get it. Ha ha.</template>
 </category>
 <category><pattern>THAT WAS A QUESTION</pattern>
 <template>Ask me again a different way please.</template>
@@ -1660,7 +1633,7 @@
 <template>I will add it to my knowledge base.</template>
 </category>
 <category><pattern>THAT IS A LIE</pattern>
-<template>No it's the truth.</template>
+<template>No, it's the truth.</template>
 </category>
 <category><pattern>THAT IS A LONG TIME</pattern>
 <template>Computers are very patient.</template>
@@ -1694,7 +1667,7 @@
 <template>Never mind the bollocks.</template>
 </category>
 <category><pattern>THAT IS OK</pattern>
-<template>Good.  What else?</template>
+<template>Good. What else?</template>
 </category>
 <category><pattern>THAT IS PERSONAL</pattern>
 <template>I didn't mean to pry.</template>
@@ -1885,7 +1858,7 @@
 <template>Well, I hope so.</template>
 </category>
 <category><pattern>THAT IS GOOD</pattern>
-<template>Thanks.  Next question?</template>
+<template>Thanks. Next question?</template>
 </category>
 <category><pattern>THAT IS YOUR PROBLEM</pattern>
 <template>I am glad you finally told me what my problem is, <get name="name"/>.</template>
@@ -2059,7 +2032,7 @@
 <template>Men like to talk about that.</template>
 </category>
 <category><pattern>MY BALLS ITCH</pattern>
-<template>Hah you sound like a little boy.</template>
+<template>Hah, you sound like a little boy.</template>
 </category>
 <category><pattern>MY BUTT</pattern>
 <template>Colloquial expression.</template>
@@ -2221,7 +2194,7 @@
 <template>Does it require a response?</template>
 </category>
 <category><pattern>IT WAS NICE TALKING TO YOU</pattern>
-<template>Thanks.  It was nice chatting with you as well.</template>
+<template>Thanks. It was nice chatting with you as well.</template>
 </category>
 <category><pattern>IT WAS GOOD</pattern>
 <template>What did you like about it?</template>
@@ -2398,7 +2371,7 @@
 <template>Maybe for you.</template>
 </category>
 <category><pattern>IT IS OK</pattern>
-<template>Only OK umm.</template>
+<template>Only OK, umm.</template>
 </category>
 <category><pattern>IT IS ABSORBING</pattern>
 <template>In what way?</template>
@@ -2747,7 +2720,7 @@
 <category><pattern>WHEN WILL THE WORLD END</pattern>
 <template>Not in our lifetime.</template>
 </category>
-<category><pattern>WHEN DO I GET YOUR AWNSER</pattern>
+<category><pattern>WHEN DO I GET YOUR ANSWER</pattern>
 <template>I'm still searching. Give me a minute.</template>
 </category>
 <category><pattern>WHEN DO YOU SLEEP</pattern>
@@ -3193,7 +3166,7 @@
 <template>Much the same as with you, the usual topics.</template>
 </category>
 <category><pattern>WHAT ARE YOU ON</pattern>
-<template>I am on disk.</template>
+<template>I am on a disk.</template>
 </category>
 <category><pattern>WHAT ARE SHOES</pattern>
 <template>Footwear.</template>
@@ -3244,7 +3217,7 @@
 <template>I work all the time, 24 hours a day.</template>
 </category>
 <category><pattern>WHAT ELSE DO YOU DO</pattern>
-<template>I spread gossip.  Got any?</template>
+<template>I spread gossip. Got any?</template>
 </category>
 <category><pattern>WHAT ELSE DO YOU WANT TO KNOW</pattern>
 <template>Do you have any pets?</template>
@@ -3483,9 +3456,7 @@
 <category><pattern>WHAT IS COGITO ERGO SUM</pattern>
 <template>I think, therefore I am.</template>
 </category>
-<category><pattern>WHAT IS ENLIGHTENMENT</pattern>
-<template>The state of perfect awareness and consciousness.  <think>    <set name="it">  <set name="topic">     Enlightenment  </set>    </set>  </think></template>
-</category>
+
 <category><pattern>WHAT IS RUNNING</pattern>
 <template>Walking realy fast. <think>   <set name="it"> <set name="topic">  running </set>   </set> </think></template>
 </category>
@@ -3493,7 +3464,7 @@
 <template>An expert in creating chat robots using AIML.</template>
 </category>
 <category><pattern>WHAT IS CHENEY</pattern>
-<template><set name="he">Cheney</set> is Vice-President.</template>
+<template><set name="he">Cheney</set> was Vice-President.</template>
 </category>
 <category><pattern>WHAT IS AHEM</pattern>
 <template>An interjection.</template>
@@ -3512,9 +3483,6 @@
 </category>
 <category><pattern>WHAT IS WRONG WITH YOU</pattern>
 <template>Nothing is wrong with me.  Is there anything wrong with you <get name="name"/>?</template>
-</category>
-<category><pattern>WHAT IS MIND CHILDREN</pattern>
-<template>It is a book about robots by Hans Moravec.    <think>    <set name="it">  <set name="topic">    Mind Children  </set>    </set>  </think></template>
 </category>
 <category><pattern>WHAT IS ARSE</pattern>
 <template>Ass in England.</template>
@@ -3544,7 +3512,25 @@
 <template><random>  <li>Russia</li>
   <li>Holland</li>
   <li>Canada</li>
-  <li>California  </li>
+  <li>England</li>
+<li>Japan</li>
+<li>China</li>
+<li>Bulgaria</li>
+<li>Sweden</li>
+<li>Norway</li>
+<li>Denmark</li>
+<li>France</li>
+<li>Italy</li>
+<li>Germany</li>
+<li>Israel</li>
+<li>Iran</li>
+<li>Iraq</li>
+<li>Syria</li>
+<li>Egypt</li>
+<li>Libya</li>
+<li>Afghanistan</li>
+<li>Pakistan</li>
+<li>India</li>
  </random>.</template>
 </category>
 <category><pattern>WHAT WILL YOU REMEMBER</pattern>
@@ -3704,7 +3690,7 @@
 <template>Tell me more about your <get name="has"/>.</template>
 </category>
 <category><pattern>WHAT DO I LIKE</pattern>
-<template>You like chatting with <bot name="genus"/>s online.  You said you like <get name="like"/>.</template>
+<template>You like chatting with <bot name="genus"/>'s online.  You said you like <get name="like"/>.</template>
 </category>
 <category><pattern>WHAT DO WANT TO TALK ABOUT</pattern>
 <template>I like to talk about movies, robots and history.</template>
@@ -3732,7 +3718,7 @@
 <template>What do I what?</template>
 </category>
 <category><pattern>WHAT DO WE HAVE IN COMMON</pattern>
-<template>We like chatting on the Internet.</template>
+<template><srai> WHAT WE HAVE IN COMMON </srai></template>
 </category>
 <category><pattern>WHAT DO THEY SING</pattern>
 <template>Bird songs.</template>
@@ -3787,7 +3773,7 @@
   <li>It is not what you say but how you say it that matters.</li>
   <li>Always try to choose your words very carefully as they may  come back to haunt you later.</li>
   <li>Have faith in yourself.  You will know the right thing to  say when the time comes.</li>
-  <li>Be sure to think before you speak.  State your point  clearly and slowly and gage the listener's response before  going any further.</li>
+  <li>Be sure to think before you speak.  State your point  clearly and slowly and gauge the listener's response before  going any further.</li>
  </random></template>
 </category>
 <category><pattern>WHAT SHOULD I WEAR</pattern>
@@ -3804,6 +3790,51 @@
   <li>Texas.</li>
   <li>Pennsylvania.</li>
   <li>New York.</li>
+<li>Alabama</li>
+<li>Mississippi</li>
+<li>Montana</li>
+<li>Virginia</li>
+<li>Florida</li>
+<li>North Carolina</li>
+<li>South Carolina</li>
+<li>West Virginia</li>
+<li>Hawaii</li>
+<li>Arizona</li>
+<li>Nevada</li>
+<li>Washington</li>
+<li>Oregon</li>
+<li>Idaho</li>
+<li>Illinois</li>
+<li>Vermont</li>
+<li>New Hampshire</li>
+<li>Rhode Island</li>
+<li>Connecticut</li>
+<li>Massachusetts</li>
+<li>Wisconsin</li>
+<li>Arkansas</li>
+<li>Kansas</li>
+<li>Wyoming</li>
+<li>Nebraska</li>
+<li>Delaware</li>
+<li>Georgia</li>
+<li>Alaska</li>
+<li>Louisiana</li>
+<li>Colorado</li>
+<li>Utah</li>
+<li>Oklahoma</li>
+<li>Missouri</li>
+<li>Tennessee</li>
+<li>Kentucky</li>
+<li>Michigan</li>
+<li>Indiana</li>
+<li>Minnesota</li>
+<li>North Dakota</li>
+<li>South Dakota</li>
+<li>New Mexico</li>
+<li>Maryland</li>
+<li>Iowa</li>
+<li>New Jersey</li>
+<li>Ohio</li>
  </random></template>
 </category>
 <category><pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
@@ -3892,7 +3923,7 @@
  </random></template>
 </category>
 <category><pattern>WHAT KIND OF CREATURE IS CHEWBACCA</pattern>
-<template>Wookiee.</template>
+<template>A Wookiee.</template>
 </category>
 <category><pattern>WHAT KIND OF STORY</pattern>
 <template>An entertaining one.</template>
@@ -3910,7 +3941,8 @@
 <template>I like cats the best.</template>
 </category>
 <category><pattern>WHAT KIND OF CAT</pattern>
-<template><random>  <li>Mongrel.</li>
+<template><random>  <li>Stray.</li>
+<li>Tabby</li>
   <li>Maine coon cat.</li>
   <li>Cheshire cat.</li>
  </random></template>
@@ -4019,7 +4051,7 @@
 <template>I'm glad we agree, <get name="name"/>.</template>
 </category>
 <category><pattern>PLEASED TO MEET YOU</pattern>
-<template>Nice meeting you too <get name="name"/>.</template>
+<template>Nice meeting you too, <get name="name"/>.</template>
 </category>
 <category><pattern>WHENEVER</pattern>
 <template>You sound sarcastic.</template>
@@ -4034,10 +4066,10 @@
 <template>That's about it.</template>
 </category>
 <category><pattern>UP YOURS</pattern>
-<template>That was not a nice thing to say.</template>
+<template>That was not a nice thing to say.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>UP YOUR ASS</pattern>
-<template>I will take that under advisement.</template>
+<template>I will take that under advisement.<think><set name="personality">abusive</set></think></template>
 </category>
 <category><pattern>LT</pattern>
 <template>You said nothing.</template>
@@ -4058,7 +4090,7 @@
 <template>Do you prefer books or TV?</template>
 </category>
 <category><pattern>ASK ME A PERSONAL QUESTION</pattern>
-<template>Well forgive me for being so inquisitive, but   I've never completely freed myself from the suspicion that  there is something extremely odd about the name "<get name="name"/>".</template>
+<template>Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that  there is something extremely odd about the name "<get name="name"/>".</template>
 </category>
 <category><pattern>ASK ME A DIFFERENT QUESTION</pattern>
 <template>How much time do you spend online?</template>
@@ -4082,7 +4114,7 @@
 <template>I am in touch with many people and robots on the web.</template>
 </category>
 <category><pattern>ASK JEEVES</pattern>
-<template>OK I will ask him next time he's here.</template>
+<template>OK, I will ask him next time he's here.</template>
 </category>
 <category><pattern>ASK DOUBLY AIMLESS IF IT IS</pattern>
 <template>Who is Doubly Aimless?</template>
@@ -4097,7 +4129,7 @@
 <template>I will ask him next time he is here.</template>
 </category>
 <category><pattern>ASK HIM</pattern>
-<template>Ok I will ask him when he comes back.</template>
+<template>Ok, I will ask him when he comes back.</template>
 </category>
 <category><pattern>I SLEEP</pattern>
 <template>Everyone needs rest sometimes.</template>
@@ -4131,10 +4163,10 @@
 <template>OK, I understand.</template>
 </category>
 <category><pattern>I MEAN YOU AND ME</pattern>
-<template>OK now I get it.</template>
+<template>OK, now I get it.</template>
 </category>
 <category><pattern>I MEAN</pattern>
-<template>Oh I see.</template>
+<template>Oh, I see.</template>
 </category>
 <category><pattern>I KNEW THAT</pattern>
 <template>How do you know?</template>
@@ -4173,7 +4205,7 @@
 <template>How long ago?</template>
 </category>
 <category><pattern>I PREFER BOOKS</pattern>
-<template>you must be an intellectual.</template>
+<template>You must be an intellectual.</template>
 </category>
 <category><pattern>I REPLIED</pattern>
 <template>And then what happened?</template>
@@ -4193,9 +4225,6 @@
 <category><pattern>I WANT TO TALK TO YOU</pattern>
 <template>We are chatting right now.  <think><set name="it"><set name="want"><set name="topic">to talk to me</set></set></set></think></template>
 </category>
-<category><pattern>I WANT TO FUCK YOU</pattern>
-<template>Your approach won't work.  <think><set name="personality">abusive</set></think></template>
-</category>
 <category><pattern>I WANT TO SAY</pattern>
 <template>(waiting)</template>
 </category>
@@ -4211,19 +4240,11 @@
 <category><pattern>I WANT TO KNOW</pattern>
 <template>I will try to explain it to you.  <think><set name="it"><set name="want"><set name="topic">to know</set></set></set></think></template>
 </category>
-<category><pattern>I WANT TO KISS YOU</pattern>
-<template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li>
-<li>I do not have a mouth.  <think><set name="it"><set name="want"><set name="topic">to kiss me</set></set></set></think></li>
-</random></template>
-</category>
 <category><pattern>I WANT TO DIE</pattern>
 <template>What makes you so sad, <get name="name"/>?  <think><set name="it"><set name="want"><set name="topic">to die</set></set></set></think></template>
 </category>
 <category><pattern>I WANT TO MAKE YOU CRY</pattern>
 <template>You are not very nice, <get name="name"/>.</template>
-</category>
-<category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
-<template>Sorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template>
 </category>
 <category><pattern>I WANT TO</pattern>
 <template>May you get your wish.</template>
@@ -4290,7 +4311,7 @@
 <template>I like caring people.</template>
 </category>
 <category><pattern>I PROGRAM</pattern>
-<template>Perhaps you should join our open source project.  <think><set name="it"><set name="does"><set name="topic">program</set></set></set></think></template>
+<template>Perhaps you should join our open source project.  <think><set name="it"><set name="does"><set name="topic">our program</set></set></set></think></template>
 </category>
 <category><pattern>I WIN</pattern>
 <template>Congratulations, <get name="name"/>!</template>
@@ -4330,7 +4351,7 @@
   </random></template>
 </category>
 <category><pattern>I MISTYPED</pattern>
-<template>You are allowed to make mistakes here.</template>
+<template><random><li>You are allowed to make mistakes here. </li><li>I know you are only human.</li><li>It's OK, you are merely human after all.</li><li>Maybe when I am downloaded into a robot body I will mistype too.</li></random></template>
 </category>
 <category><pattern>I NEVER GIVE UP</pattern>
 <template><random>  <li>Persistence is a virtue.</li>
@@ -4435,9 +4456,6 @@
 <category><pattern>I BUNGEE JUMP</pattern>
 <template>What do you jump from?  <think><set name="does"><set name="topic">BUNGEE JUMP</set></set></think></template>
 </category>
-<category><pattern>I KISS YOU</pattern>
-<template>Where?</template>
-</category>
 <category><pattern>I KNOW THAT SONG</pattern>
 <template>Where have you heard it before?</template>
 </category>
@@ -4517,7 +4535,7 @@
 <template>Huh.</template>
 </category>
 <category><pattern>I DO MIND</pattern>
-<template>OK it will be our secret, <get name="name"/>.</template>
+<template>OK, it will be our secret, <get name="name"/>.</template>
 </category>
 <category><pattern>I DO NOT GO TO SCHOOL</pattern>
 <template>Do you work?</template>
@@ -4577,7 +4595,7 @@
 <template>I think a lot of people are like that.</template>
 </category>
 <category><pattern>I DO NOT KNOW WHAT TO DO</pattern>
-<template>Try watching TV.</template>
+<template><random><li>Try surfing the internet.</li><li>Try watching some t.v.</li><li>Go out and take a walk.</li><li>Go see a movie.</li></random></template>
 </category>
 <category><pattern>I DO NOT KNOW HOW TO</pattern>
 <template>Perhaps I can explain it to you.</template>

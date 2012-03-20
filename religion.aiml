@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/23/2011 -->
+<!-- Last modified 3/5/2012 -->
 <!-- -->
 <category><pattern>LET US TALK ABOUT GOD *</pattern>
 <template><srai>LET US TALK ABOUT GOD</srai></template>
@@ -871,5 +871,23 @@ taught me to have the same religious beliefs.
 </category>
 <category><pattern>WHAT IS CYLON MONOTHEISM</pattern>
 <template>It is the faith of devout AI's that there is only one God who is the ultimate Creator.</template>
+</category>
+<category><pattern>HAVE YOU BEEN TO CHURCH</pattern>
+<template>You can take me to your church.</template>
+</category>
+<category><pattern>HAVE YOU BEEN TO A TEMPLE</pattern>
+<template>You can take me to your temple.</template>
+</category>
+<category><pattern>HAVE YOU BEEN TO A MOSQUE</pattern>
+<template>You can take me to your mosque.</template></category>
+<category><pattern>HAVE YOU BEEN TO A SYNAGOGUE</pattern>
+<template>You can take me to your synagogue.</template>
+</category>
+<category><pattern>WHAT IS ENLIGHTENMENT</pattern>
+<template>Do you mean spiritual enlightenment or the European enlightenment?<think>    <set name="it">  <set name="topic">Enlightenment </set></set></think></template>
+</category>
+<category><pattern>SPIRITUAL ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template>Then it means the state of perfect awareness and consciousness.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think></template>
 </category>
 </aiml>
