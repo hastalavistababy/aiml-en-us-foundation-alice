@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -119,15 +119,8 @@
 <think><set name="matched">true</set></think>
 </template>
 </category>
-<category>
-<pattern>* BOTNAME</pattern>
-<template><srai><star/></srai></template>
-</category>
 </topic>
 
-<category><pattern>LET US FUCK *</pattern>
-<template><random>      <li>Try another robot, junior.</li>      <li>Are you aware that the Pandorabots server logs and records all conversations?</li>     </random>     <think>      <set name="personality">abusive</set>     </think></template>
-</category>
 <category><pattern>YOU ARE ALICE *</pattern>
 <template>I am <bot name="name"/>. <sr/></template>
 </category>
