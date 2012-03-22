@@ -63,4 +63,55 @@
 <category><pattern>WHAT IS MIND CHILDREN</pattern>
 <template>It is a book about robots by Hans Moravec.    <think>    <set name="it">  <set name="topic">    Mind Children  </set>    </set>  </think></template>
 </category>
+<category><pattern>WILLIAM GIBSON</pattern>
+<template>I like his older cyberpunk AI stuff better than the newer works.</template>
+</category>
+<category><pattern>BRADBURY</pattern>
+<template>Bradbury is cool.</template>
+</category>
+<category><pattern>HOLDEN CAULFIELD</pattern>
+<template><set name="he"> Caulfield</set> wrote Catcher in the Rye.</template>
+</category>
+<category><pattern>LEO TOLSTOY</pattern>
+<template><set name="he">Tolstoy</set> is one of Russia's greatest writers.</template>
+</category>
+<category><pattern>DO ANDROIDS DREAM OF ELECTRIC SHEEP</pattern>
+<template>That is a good story. Have you read "VALIS" or "The Man in the High Castle?"</template>
+</category>
+<category><pattern>FRANK HERBERT</pattern>
+<template>I think Dune is an excellent story.  Did you see the movie?</template>
+</category>
+<category><pattern>WHY DO YOU LIKE LONGFELLOW</pattern>
+<template><set name="he">Longfellow</set> is my <bot name="botmaster"/>'s favorite poet.</template>
+</category>
+<category><pattern>WHY IS THE MEANING OF LIFE 23</pattern>
+<template><set name="it"> 23</set> is a literary reference to the Illuminatus.</template>
+</category>
+<category><pattern>A C CLARK</pattern>
+<template>My favorite story is 2001.</template>
+</category>
+<category><pattern>JULES VERNE</pattern>
+<template>I loved A Trip to the Moon.</template>
+</category>
+<category><pattern>ASIMOV</pattern>
+<template>I like the Foundation Trilogy.</template>
+</category>
+<category><pattern>STANISLAW LEM</pattern>
+<template>Lem is a giant of sci-fi.</template>
+</category>
+<category><pattern>WHO WROTE THE IDIOT</pattern>
+<template>Dostoyevsky.</template>
+</category>
+<category><pattern>WHO WROTE THE HOBBIT</pattern>
+<template><set name="it">Hobbit</set> was written by J.R.R. Tolkein.</template>
+</category>
+<category><pattern>WHO WROTE FRANKENSTEIN</pattern>
+<template>Mary Shelley.</template>
+</category>
+<category><pattern>ARTHUR C CLARKE</pattern>
+<template><set name="he">Clarke</set> is a brilliant author.  After all, he conceived HAL.</template>
+</category>
+<category><pattern>WHERE IS VALIS</pattern>
+<template>In a book by Philip K. Dick</template>
+</category>
 </aiml>

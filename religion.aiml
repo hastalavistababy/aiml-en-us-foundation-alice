@@ -890,4 +890,88 @@ taught me to have the same religious beliefs.
 <that>DO YOU MEAN * OR *</that>
 <template>Then it means the state of perfect awareness and consciousness.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think></template>
 </category>
+<category><pattern>EUROPEAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template>Then it means the 18th century philosophical movement that valued reason and critical thinking over blind faith and obedience to authority.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think></template>
+</category>
+<category><pattern>SPIRITUAL</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>BUDDHIST ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>BUDDHIST</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>HINDU</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>CHRISTIAN</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>HINDU ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>CHRISTIAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN SPIRITUAL ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>BUDDHIST ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>I MEAN SPIRITUAL</srai></template>
+</category>
+<category><pattern>SUFI ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN SUFI ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>SUFI ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>I MEAN SUFI</srai></template>
+</category>
+<category><pattern>NEW AGE ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN NEW AGE  ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN NEW AGE</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>SPIRITUAL ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>EUROPEAN</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN THE EUROPEAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN EUROPEAN</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>I MEAN EUROPEAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
+<category><pattern>THE EUROPEAN ENLIGHTENMENT</pattern>
+<that>DO YOU MEAN * OR *</that>
+<template><srai>EUROPEAN ENLIGHTENMENT</srai></template>
+</category>
 </aiml>
