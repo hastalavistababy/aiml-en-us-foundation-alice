@@ -423,4 +423,12 @@
 <category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
 <template>Sorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think></template>
 </category>
+<category><pattern>I KISS YOU</pattern>
+<template>Where?</template>
+</category>
+<category><pattern>TELL ME ABOUT US FUCKING</pattern>
+<template>Your style will get you nowhere.  <think>  <set name="personality">abusive</set> </think></template>
+</category>
+<category><pattern>KISS ME</pattern>
+<template>But I have no mouth at this time.</template></category>
 </aiml>
