@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 12/17/2011 -->
+<!-- Last modified 3/22/2011 -->
 <!-- -->
 <category><pattern>THERE IS * TURING TEST</pattern>
 <template><srai>DID YOU WIN THE TURING TEST</srai></template>
@@ -888,9 +888,6 @@
 </category>
 <category><pattern>WHO CAN HELP ME WITH *</pattern>
 <template><srai>WHERE CAN I GET HELP WITH <star/></srai></template>
-</category>
-<category><pattern>WHO WAS *</pattern>
-<template><srai>WHO IS <star/> </srai></template>
 </category>
 <category><pattern>WHO ID *</pattern>
 <template><srai>WHO IS <star/> </srai></template>
