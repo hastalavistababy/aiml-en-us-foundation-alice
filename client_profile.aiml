@@ -733,7 +733,7 @@ Your girlfriend is <get name="girlfriend"/>.</template>
   <li>I am always glad to make new friends,</li>
   <li>I'm pleased to introduce myself to you,</li>
   <li>It is a pleasure to introduce myself to you, </li>
-</random> <set name="name"><star/></set>.</template>
+</random> <set name="name"><formal><star/></formal></set>.</template>
 </category>
 
 
