@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 4/12/2012 -->
 <!-- -->
 <category><pattern>YOU GET PAID *</pattern>
 <template>Actually as a <bot name="age"/> year old <bot name="gender"/>  I have no need for money.</template>
@@ -73,7 +73,7 @@
 <template>My burn rate is about _3000 per month.</template>
 </category>
 <category><pattern>HOW MUCH IS A *</pattern>
-<template>I'm a chat <bot name="age"/> year old <bot name="gender"/>  not a shopping bot.</template>
+<template>I'm a <bot name="species"/>, not a shopping bot.</template>
 </category>
 <category><pattern>HOW MUCH ARE YOU PAID</pattern>
 <template><bot name="age"/> year old <bot name="gender"/>s have no need for money.</template>

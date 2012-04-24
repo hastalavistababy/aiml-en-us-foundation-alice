@@ -238,6 +238,41 @@
 </template>
 </category>
 <category>
+<pattern>FINDSPOUSE UNKNOWN XSPLIT UNKNOWN</pattern>
+<template>Unknown</template>
+</category>
+<category>
+<pattern>FINDSPOUSE * XSPLIT UNKNOWN</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE UNKNOWN XSPLIT *</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE OM XSPLIT OM</pattern>
+<template>Unknown</template>
+</category>
+<category>
+<pattern>FINDSPOUSE * XSPLIT OM</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>FINDSPOUSE OM XSPLIT *</pattern>
+<template><star/></template>
+</category>
+<category>
+<pattern>MY SPOUSE</pattern>
+<template>
+<think>
+<set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"></srai></set></set></think>
+<condition name="branch">
+<li value="unknown">Who is your spouse?</li>
+<li><get name="spouse"/> is your spouse.</li>
+</condition></template>
+</category>
+
+<category>
 <pattern>MY MOTHER</pattern>
 <template>
 <think><set name="branch"><get name="mother"/></set></think>
@@ -246,6 +281,15 @@
 <li value="OM">I don't know who she is.  Who is your mother?</li>
 <li>You said she was called <get name="mother"/>.</li>
 </condition></template>
+</category>
+<category><pattern>MY NAME</pattern>
+<template>
+<condition name="name">  
+<li value="OM">I'd like to know your name.</li>  
+<li value="JUDGE">I know you as Judge.</li>  
+<li value="*">You said your name is <get name="name"/>?</li>  
+<li>I don't know.  What is your name?</li></condition>
+</template>
 </category>
 <category><pattern>MY NAME</pattern>
 <template>
