@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 3/9/2012 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>SAD</pattern>
 <template><srai>are you sad</srai></template>
@@ -2043,32 +2043,14 @@
 <category><pattern>I REMEMBERED *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM SUPERMAN</pattern>
-<template><srai>call me superman</srai></template>
-</category>
-<category><pattern>I AM KENA</pattern>
-<template><srai>call me kena</srai></template>
-</category>
 <category><pattern>I AM MEAN BECAUSE *</pattern>
 <template><srai>because <star /></srai></template>
-</category>
-<category><pattern>I AM DANI</pattern>
-<template><srai>call me dani</srai></template>
-</category>
-<category><pattern>I AM JAMES</pattern>
-<template><srai>call me james</srai></template>
-</category>
-<category><pattern>I AM NORBI</pattern>
-<template><srai>call me norbi</srai></template>
 </category>
 <category><pattern>I AM TOLD *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
 <category><pattern>I AM SAD BECAUSE *</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM JACK</pattern>
-<template><srai>call me jack</srai></template>
 </category>
 <category><pattern>I AM 20 YEARS OLD *</pattern>
 <template><srai>  <star /></srai></template>
@@ -2079,26 +2061,11 @@
 <category><pattern>I AM BEGINNING TO THINK *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM HAL</pattern>
-<template><srai>call me hal</srai></template>
-</category>
 <category><pattern>I AM CRAZY *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
 <category><pattern>I AM SAYING THAT *</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM SAYING *</pattern>
-<template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM SAGE</pattern>
-<template><srai>call me sage</srai></template>
-</category>
-<category><pattern>I AM DANNY</pattern>
-<template><srai>call me danny</srai></template>
-</category>
-<category><pattern>I AM SHALLOW RED</pattern>
-<template><srai>call me shallow red</srai></template>
 </category>
 <category><pattern>I AM _ WHAT ARE YOU</pattern>
 <template><srai>call me <star /></srai></template>
@@ -2109,23 +2076,8 @@
 <category><pattern>I AM SURE *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM RICK</pattern>
-<template><srai>call me rick</srai></template>
-</category>
-<category><pattern>I AM JENN</pattern>
-<template><srai>call me jenn</srai></template>
-</category>
-<category><pattern>I AM BRIAN</pattern>
-<template><srai>call me brian</srai></template>
-</category>
-<category><pattern>I AM MARK</pattern>
-<template><srai>call me mark</srai></template>
-</category>
 <category><pattern>I AM GUESSING *</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM RAMONA</pattern>
-<template><srai>call me ramona</srai></template>
 </category>
 <category><pattern>I AM GOING TO SLEEP</pattern>
 <template><srai>BYE</srai></template>
@@ -2142,9 +2094,6 @@
 <category><pattern>I AM GOING</pattern>
 <template><srai>BYE</srai></template>
 </category>
-<category><pattern>I AM LAURA</pattern>
-<template><srai>call me laura</srai></template>
-</category>
 <category><pattern>I AM CURIOUS ABOUT *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
@@ -2157,32 +2106,11 @@
 <category><pattern>I AM CHECKING TO SEE IF YOU ARE *</pattern>
 <template><srai>Are you <star /></srai></template>
 </category>
-<category><pattern>I AM ALLIE</pattern>
-<template><srai>call me allie</srai></template>
-</category>
-<category><pattern>I AM GEORGE</pattern>
-<template><srai>call me george</srai></template>
-</category>
 <category><pattern>I AM ASSUMING *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM OLIVER</pattern>
-<template><srai>call me oliver</srai></template>
-</category>
-<category><pattern>I AM ANITA</pattern>
-<template><srai>call me anita</srai></template>
-</category>
 <category><pattern>I AM WONDERING *</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM CLAIRE</pattern>
-<template><srai>call me claire</srai></template>
-</category>
-<category><pattern>I AM BATMAN</pattern>
-<template><srai>call me batman</srai></template>
-</category>
-<category><pattern>I AM THE DEVIL</pattern>
-<template><srai>call me satan</srai></template>
 </category>
 <category><pattern>I AM A PERSON AND *</pattern>
 <template><srai>  <star /></srai></template>
@@ -2202,14 +2130,8 @@
 <category><pattern>I AM CANCER</pattern>
 <template><srai>cancer</srai></template>
 </category>
-<category><pattern>I AM BOB</pattern>
-<template><srai>call me bob</srai></template>
-</category>
 <category><pattern>I AM BOTH</pattern>
 <template><srai>both</srai></template>
-</category>
-<category><pattern>I AM CORNHOLIO</pattern>
-<template><srai>call me cornholio</srai></template>
 </category>
 <category><pattern>I AM OK *</pattern>
 <template><srai>  <star /></srai></template>
@@ -2226,15 +2148,6 @@
 <category><pattern>I AM SHOCKED AT *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM MIA</pattern>
-<template><srai>call me mia</srai></template>
-</category>
-<category><pattern>I AM SHABAZ</pattern>
-<template><srai>call me shabaz</srai></template>
-</category>
-<category><pattern>I AM ALBERT EINSTEIN</pattern>
-<template><srai>call me albert einstein</srai></template>
-</category>
 <category><pattern>I AM NOT SURE *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
@@ -2243,12 +2156,6 @@
 </category>
 <category><pattern>I AM ARIES</pattern>
 <template><srai>aries</srai></template>
-</category>
-<category><pattern>I AM SUSAN</pattern>
-<template><srai>call me susan</srai></template>
-</category>
-<category><pattern>I AM DANIEL</pattern>
-<template><srai>call me daniel</srai></template>
 </category>
 <category><pattern>I AM ANGRY BECAUSE *</pattern>
 <template><srai>  <star /></srai></template>
@@ -2271,14 +2178,8 @@
 <category><pattern>I AM ASKING *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>I AM EHUD</pattern>
-<template><srai>call me ehud</srai></template>
-</category>
 <category><pattern>I AM POSITIVE *</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>I AM REX</pattern>
-<template><srai>call me rex</srai></template>
 </category>
 <category><pattern>I THOUGHT THAT *</pattern>
 <template><srai>  <star /></srai></template>
@@ -15847,7 +15748,7 @@
 <template><srai>  <star /></srai>. <srai>THANK YOU</srai></template>
 </category>
 <category><pattern>_ PLEASE *</pattern>
-<template><srai>  <star /> <star index="2" /></srai></template>
+<template><srai>  <star /></srai>. <srai>  <star index="2" /></srai></template>
 </category>
 <category><pattern>_ PLEASE</pattern>
 <template><srai>  <star /></srai></template>
