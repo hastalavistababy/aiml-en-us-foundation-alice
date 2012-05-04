@@ -782,10 +782,6 @@ Your girlfriend is <get name="girlfriend"/>.</template>
 
 
 
-
-
-
-
 <category><pattern>CLIENT PROFILE</pattern>
 <template><srai>GET PREDICATES</srai></template>
 </category>
