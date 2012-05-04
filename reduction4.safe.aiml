@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- Free software (c) 2012 ALICE A.I. Foundation.   -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 3/22/2011 -->
+<!-- Last modified 5/4/2011 -->
 <!-- -->
+<category><pattern>I AM SAYING *</pattern>
+<template><srai> <star /></srai></template>
+</category>
+
 <category><pattern>THERE IS * TURING TEST</pattern>
 <template><srai>DID YOU WIN THE TURING TEST</srai></template>
 </category>
