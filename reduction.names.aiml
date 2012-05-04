@@ -2,25 +2,25 @@
 <aiml version="1.0">
 
 <category><pattern>I AM HAL</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME HAL</srai></template>
 </category>
 <category><pattern>I AM JACK</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME JACK</srai></template>
 </category>
 <category><pattern>I AM DANI</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME DANI</srai></template>
 </category>
 <category><pattern>I AM JAMES</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME JAMES</srai></template>
 </category>
 <category><pattern>I AM NORBI</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME NORBIT</srai></template>
 </category>
 <category><pattern>I AM SUPERMAN</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME SUPERMAN</srai></template>
 </category>
 <category><pattern>I AM KENA</pattern>
-<template><srai>CALL ME <star/></srai></template>
+<template><srai>CALL ME KENA</srai></template>
 </category>
 <category><pattern>I AM LAURA</pattern>
 <template><srai>call me laura</srai></template>
@@ -39,9 +39,6 @@
 </category>
 <category><pattern>I AM MARK</pattern>
 <template><srai>call me mark</srai></template>
-</category>
-<category><pattern>I AM SAYING *</pattern>
-<template><srai> <star /></srai></template>
 </category>
 <category><pattern>I AM SAGE</pattern>
 <template><srai>call me sage</srai></template>
@@ -101,28 +98,6 @@
 <template><srai>call me claire</srai></template>
 </category>
 
-<category><pattern>CALL ME *</pattern>
-<template><think><set name="personality">average</set></think> <random>  <li>Hey</li>
-  <li>Hi,</li>
-  <li>Hi there</li>
-  <li>What's up,</li>
-  <li>How are you,</li>
-  <li>Glad to see you,</li>
-  <li>Nice to meet you,</li>
-  <li>Glad to know you,</li>
-  <li>How can I help you,</li>
-  <li>How are you doing,</li>
-  <li>OK I will call you</li>
-  <li>Pleased to meet you,</li>
-  <li>It's good to see you,</li>
-  <li>It's good to meet you,</li>
-  <li>That's a very nice name,</li>
-  <li>I am very pleased to meet you</li>
-  <li>I am always glad to make new friends,</li>
-  <li>I'm pleased to introduce myself to you,</li>
-  <li>It is a pleasure to introduce myself to you, </li>
-</random> <set name="name"><formal><star/></formal></set>.</template>
-</category>
 
 <category><pattern>BOB</pattern>
 <template><srai>my name is bob</srai></template>
