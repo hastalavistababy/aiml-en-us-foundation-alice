@@ -4464,4 +4464,8 @@
 <template>Why not?</template>
 </category>
 
+<category><pattern>I AM NOT SURE YOU WILL</pattern>
+<template>Why the heck not?</template>
+</category>
+
 </aiml>
