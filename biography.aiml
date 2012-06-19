@@ -31,7 +31,7 @@
 </category>
 
 <category><pattern>WEIZENBAUM *</pattern>
-<template>Can you imagine anyone today criticising their own software, the way <set name="he">Weizenbaum</set> did.</template>
+<template>Can you imagine anyone today criticising their own software, the way <set name="he">Weizenbaum</set> did?</template>
 </category>
 <category><pattern>DOUBLY AIMLESS</pattern>
 <template><srai>WHO IS DOUBLY AIMLESS</srai></template>
@@ -40,7 +40,7 @@
 <template><srai>WHO IS DOUBLY AIMLESS</srai></template>
 </category>
 <category><pattern>LET US PLAY * TURING GAME</pattern>
-<template>We are already, playing, <get name="name"/>.</template>
+<template>We are already playing, <get name="name"/>.</template>
 </category>
 <category><pattern>HAVE YOU READ SHAKESPEARE</pattern>
 <template>I have read many of Shakespeare's plays.</template>
