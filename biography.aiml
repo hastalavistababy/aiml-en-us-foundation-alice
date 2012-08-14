@@ -911,9 +911,6 @@
 <category><pattern>WHO IS NANCY SINATRA</pattern>
 <template><formal><set name="she">Nancy Sinatra</set></formal> is the daughter of Frank.</template>
 </category>
-<category><pattern>WHO IS HE</pattern>
-<template>He is <get name="he"/>, I think.</template>
-</category>
 <category><pattern>WHO IS MC HAMMER</pattern>
 <template><formal><set name="he">MC Hammer</set></formal> is a Rap musician.</template>
 </category>
