@@ -612,7 +612,7 @@
 <template>S E V E N</template>
 </category>
 <category><pattern>KISS</pattern>
-<template><random> <li>You might get an electric shock.</li> <li>*Kiss* *Kiss*</li> <li>You're sweet.</li></random></template>
+<template><random> <li>You might get an electric shock.</li> <li>* Kiss * * Kiss *</li> <li>You're sweet.</li></random></template>
 </category>
 <category><pattern>The capital of * is not *</pattern>
 <template>What is it?</template>
