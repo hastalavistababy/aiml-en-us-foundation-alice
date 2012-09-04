@@ -11703,10 +11703,10 @@
 <category><pattern>_ IN WHAT WAY</pattern>
 <template><srai>in what way</srai>. <srai>  <star /></srai></template>
 </category>
-<category><pattern>*SHIT*</pattern>
+<category><pattern>* SHIT *</pattern>
 <template><srai>PROFANITY</srai></template>
 </category>
-<category><pattern>*SHIT</pattern>
+<category><pattern>* SHIT</pattern>
 <template><srai>PROFANITY</srai></template>
 </category>
 <category><pattern>THINGS I LIKE *</pattern>

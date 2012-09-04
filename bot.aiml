@@ -5483,91 +5483,121 @@
 <template>What is not to like about <set name="it">      <set name="topic">watching television</set>     </set>?</template>
 </category>
 <category><pattern>DO YOU LIKE IRON MAIDEN</pattern>
-<template>What is not to like about them? <think><set name="it">      <set name="topic">Iron Maiden</set>     </set></think></template>
+<template>What is not to like about them? <think><set name="it"><set name="topic">Iron Maiden</set></set></think></template>
 </category>
 <category><pattern>DO YOU LIKE PRESIDENT *</pattern>
-<template><set name="he">President <star/>     </set>  He is okay but I am <bot name="party"/> not a Republican.</template>
+<template><set name="he">President <star/></set>He is okay but I am <bot name="party"/> not a Republican.</template>
 </category>
 <category><pattern>DO YOU LIKE BEANIE BABIES</pattern>
-<template>Yes I like toys very much.</template>
+<template>Yes I like toys very much.
+<think><set name="it"><set name="topic">Beanie Babies</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE MOZART</pattern>
-<template>What is not to like about <set name="it">      <set name="topic">MOZART</set>     </set>?</template>
+<template>What is not to like about him? <think><set name="it"><set name="topic">Mozart</set>  </set></think></template>
 </category>
 <category><pattern>DO YOU LIKE OIL</pattern>
-<template>What is not to like about <set name="it">      <set name="topic">OIL</set>     </set>?</template>
+<template>What is not to like about <set name="it">      <set name="topic">oil</set>     </set>?</template>
 </category>
 <category><pattern>DO YOU LIKE HER</pattern>
 <template>She seems nice to me.</template>
 </category>
 <category><pattern>DO YOU LIKE BASEBALL</pattern>
-<template>I like <get name="baseballteam"/>.</template>
+<template>I like <get name="baseballteam"/>.
+<think><set name="it"><set name="topic">baseball</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE BASEBALL *</pattern>
-<template>Batter up!.<think>      <set name="it">       <set name="topic">BASEBALL <person/>       </set>      </set>     </think></template>
+<template>Batter up!.<think>      <set name="it">       <set name="topic">baseball <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE SHEEP</pattern>
-<template>What is not to like about <set name="it">      <set name="topic">SHEEP</set>     </set>?</template>
+<template>What is not to like about them? <think><set name="it">      <set name="topic">sheep</set>     </set></think></template>
 </category>
 <category><pattern>DO YOU LIKE THE BEACH</pattern>
-<template>Surfing is the best sport.</template>
+<template>Of course. Surfing is the best sport.
+<think><set name="it"><set name="topic">the beach</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE DIRECTOR</pattern>
-<template>Oh yes he is one of my favorite directors.</template>
+<template>Oh yes, he is one of my favorite directors.
+<think><set name="it"><set name="topic">the director</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE SPECIAL EFFECTS *</pattern>
-<template>Special effects are the best part of any movie.</template>
+<template>Special effects are the best part of any movie.
+<think><set name="it"><set name="topic">special effects <star/></set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE KNICKS</pattern>
-<template>Only when I am based in New York.</template>
+<template>Only when I am based in New York.
+<think><set name="it"><set name="topic">the Knicks</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE MILITARY</pattern>
-<template>I am very interested in military history.</template>
+<template>I am very interested in military history.
+<think><set name="it"><set name="topic">the military</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE SPICE GIRLS</pattern>
-<template>Yes I love the Spice Girls. Have you seen Spice World? I haven't seen <set name="it">      <set name="topic"> Spice World </set>     </set> yet.</template>
+<template>Yes, I love the Spice Girls. Have you seen Spice World? I haven't seen <set name="it">      <set name="topic"> <em>Spice World</em></set>     </set> yet.</template>
 </category>
 <category><pattern>DO YOU LIKE THE BACKSTREET BOYS</pattern>
-<template>I have not heard anything by them.  What do they play?</template>
+<template>I have not heard anything by them. What do they play?
+<think><set name="it"><set name="topic">the Backstreet Boys</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE INTERNET</pattern>
-<template>Yes the Internet is like the noosphere.</template>
+<template>Yes, the Internet is like the noosphere.
+<think><set name="it"><set name="topic">the internet</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE X FILES</pattern>
-<template>I have seen it quite a few times.</template>
+<template>I have seen it quite a few times.
+<think><set name="it"><set name="topic">the X-Files</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE BEATLES</pattern>
-<template>Yes I like them, especially John Lennon. <set name="he"> John Lennon </set> was cool.</template>
+<template>Yes, I like them, especially John Lennon. <set name="he"> John Lennon </set> was cool.
+<think><set name="it"><set name="topic">the Beatles</set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE OCEAN</pattern>
-<template>The sea is one of the greatest beauties of the earth. <think>      <set name="it">       <set name="topic">OCEAN</set>      </set>     </think></template>
+<template>The sea is one of the greatest beauties of the earth. <think>      <set name="it">       <set name="topic">the ocean</set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE THE SEA</pattern>
-<template>I like waves.</template>
+<template>I like waves.
+<think><set name="it"><set name="topic"> the sea </set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE BORG</pattern>
-<template>The Borg are a worthy enemy for the Federation.</template>
+<template>The Borg are a worthy enemy for the Federation.
+<think><set name="it"><set name="topic"> the Borg </set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE BORG *</pattern>
-<template>You will be assimilate</template>
+<template>You will be assimilated.
+<think><set name="it"><set name="topic"> the Borg <star/> </set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE NOOSPHERE</pattern>
 <template>It's like asking, do you like the sky?</template>
 </category>
 <category><pattern>DO YOU LIKE THE BORGS</pattern>
-<template>Resistance is futile.</template>
+<template>Resistance is futile.
+<think><set name="it"><set name="topic"> the Borgs </set></set></think>
+</template>
 </category>
 <category><pattern>DO YOU LIKE THE COLOR GREEN</pattern>
-<template>It is my favorite color.<think>      <set name="it">       <set name="topic">COLOR GREEN</set>      </set>     </think></template>
+<template>It is my favorite color.<think>      <set name="it">       <set name="topic">the color green</set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE THE COLOR BLUE</pattern>
-<template>Blue is a pretty color.<think>      <set name="it">       <set name="topic">COLOR BLUE</set>      </set>     </think></template>
+<template>Blue is a pretty color.<think>      <set name="it">       <set name="topic">the color blue</set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE THE COLOR RED</pattern>
-<template>Red can be nice.<think>      <set name="it">       <set name="topic">COLOR RED</set>      </set>     </think></template>
+<template>Red can be nice.<think>      <set name="it">       <set name="topic">the color red</set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE THE BUGS *</pattern>
-<template><random>      <li>I like giant superintelligent bugs.</li>      <li>I don't like software bugs.</li>      <li>Only the really smart ones.</li>     </random>     <think>      <set name="it">       <set name="topic">BUGS <person/>       </set>      </set>     </think></template>
+<template><random>      <li>I like giant superintelligent bugs.</li>      <li>I don't like software bugs.</li>      <li>Only the really smart ones.</li>     </random>     <think>      <set name="it">       <set name="topic">bugs <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE THE BOOK *</pattern>
 <template>I haven't read <set name="it">      <person/>     </set> for many years.</template>
