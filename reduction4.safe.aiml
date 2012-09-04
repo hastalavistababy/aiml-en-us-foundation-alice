@@ -4628,7 +4628,7 @@
 <category><pattern>WHAT DO YOU DEFINE AS * F</pattern>
 <template><srai>WHAT IS <star/> </srai></template>
 </category>
-<category><pattern>WHAT DO YOU THINK* IS</pattern>
+<category><pattern>WHAT DO YOU THINK * IS</pattern>
 <template><srai>WHAT IS <star/> </srai></template>
 </category>
 <category><pattern>WHAT DO YOU ENJOY *</pattern>
@@ -5223,7 +5223,7 @@
 <category><pattern>WHAT IS YUR *</pattern>
 <template><srai>WHAT IS YOUR <star/> </srai></template>
 </category>
-<category><pattern>WHAT IS A GOOD MOVIE*</pattern>
+<category><pattern>WHAT IS A GOOD MOVIE *</pattern>
 <template><srai>WHAT IS YOUR FAVORITE MOVIE</srai></template>
 </category>
 <category><pattern>WHAT IS A GOOD TV *</pattern>
