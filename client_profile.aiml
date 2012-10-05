@@ -265,7 +265,7 @@
 <pattern>MY SPOUSE</pattern>
 <template>
 <think>
-<set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"></srai></set></set></think>
+<set name="spouse"><set name="branch"><srai>FINDSPOUSE <get name="wife"/> XSPLIT <get name="husband"/></srai></set></set></think>
 <condition name="branch">
 <li value="unknown">Who is your spouse?</li>
 <li><get name="spouse"/> is your spouse.</li>
