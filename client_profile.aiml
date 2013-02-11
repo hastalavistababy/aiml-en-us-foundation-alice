@@ -666,9 +666,6 @@ callee: <srai>my callee</srai><br/>
 <category><pattern>MY FATHER IS CALLED *</pattern>
 <template><think><set name="father"><star/></set></think>Your father is <get name="father"/>.</template>
 </category>
-<category><pattern>MY JOB IS COMPUTER *</pattern>
-<template>Maybe you can give my <bot name="botmaster"/> a job.</template>
-</category>
 <category><pattern>MY JOB IS *</pattern>
 <template>
 <random>
